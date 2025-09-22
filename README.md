@@ -1,35 +1,37 @@
-# 🚢 Battleship Game (Tkinter)
+# 🚢 Battleship Game (Python + Tkinter)
 
-A simple **Battleship** game built with Python's `tkinter` GUI library, adapting when studying SC1003  
-Players can place ships on a 10x10 grid and take turns trying to sink them.
+A fun and interactive Battleship game built with Python & Tkinter.  
+Players place ships on a 10×10 board, then take turns attacking until all ships are sunk.
 
 ---
 
 ## 🎮 Features
-- Interactive 10x10 grid with clickable cells
-- Ship placement phase with validation
-- Attack phase with hit/miss indicators
-- Colorful UI with game status updates
-- Supports restarting the game without restarting the app
+
+- Interactive 10×10 grid with visual feedback  
+- Ship placement phase with validation (horizontal placement only)  
+- Attack phase with hit (`X`) / miss (`O`) markers  
+- Game status updates (ships remaining, victory message)  
+- New Game button to reset the board  
 
 ---
 
-## 🖼️ Screenshot
+## 🖼 Screenshot
 
-![Game Screenshot](images/InitialBattleShipGame.png)
+![Game Screenshot](InitialBattleShipGame.png)  
 
-
-
----
-
-## 🛠️ Requirements
-- Python **3.8+**
-- `tkinter` (comes with standard Python installation)
+*(Screenshot of the game window with ships placement / attack phase)*
 
 ---
 
-## 🚀 How to Play
-1. **Clone the repository**:
+## 🛠 Requirements
+
+- Python 3.8 or newer  
+- Tkinter (comes with standard Python)  
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:  
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/DanielNg0729/BattleshipGame.git
